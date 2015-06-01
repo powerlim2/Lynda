@@ -4,7 +4,7 @@ This is a repo for my Lynda.com courseworks. Courses at Lynda.com tend to be lig
 
 ![logo](logo.png)
 
-## My course works:
+## My Courseworks:
 
 - **Node.js**
 	1. Node.js Essential Training with Joseph LeBlanc
@@ -12,3 +12,5 @@ This is a repo for my Lynda.com courseworks. Courses at Lynda.com tend to be lig
 - **jQuery**
 	1. jQuery Essential Training with Joe Marini
 
+- **D3.js**
+    1. Data Visualization with D3.js with Ray Villalobos
