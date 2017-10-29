@@ -6,11 +6,7 @@ This is a repo for my Lynda.com courseworks. Courses at Lynda.com tend to be lig
 
 ## My Courseworks:
 
-- **Node.js**
-	1. Node.js Essential Training with Joseph LeBlanc
-
-- **jQuery**
-	1. jQuery Essential Training with Joe Marini
-
-- **D3.js**
-    1. Data Visualization with D3.js with Ray Villalobos
+- **HTML5**: HTML5: Structure, Syntax, and Semantics by James Williamson
+- **Node.js**: Node.js Essential Training with Joseph LeBlanc
+- **jQuery**: jQuery Essential Training with Joe Marini
+- **D3.js**: Data Visualization with D3.js with Ray Villalobos

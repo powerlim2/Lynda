@@ -1,0 +1,578 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"num",
+				"num_days"
+			],
+			[
+				"Create",
+				"CreateEvent"
+			],
+			[
+				"COUNT",
+				"COUNT_STAR"
+			],
+			[
+				"recipi",
+				"recipientPhoneAccount_ID"
+			],
+			[
+				"lixEen",
+				"lixEvents_dgts"
+			],
+			[
+				"app_mb",
+				"app_mb_time"
+			],
+			[
+				"quality",
+				"quality_signup"
+			],
+			[
+				"invite",
+				"invite_type"
+			],
+			[
+				"hourly_",
+				"hourly_signedup"
+			],
+			[
+				"local",
+				"locale_country_code"
+			],
+			[
+				"member",
+				"member_id"
+			],
+			[
+				"summ",
+				"summary2"
+			],
+			[
+				"invitati",
+				"invitation_id"
+			],
+			[
+				"contry",
+				"country_code"
+			],
+			[
+				"clicks_",
+				"clicks_metadata"
+			],
+			[
+				"country",
+				"country_code"
+			],
+			[
+				"deliver",
+				"deliveryId"
+			],
+			[
+				"flock",
+				"flockMessageUrn"
+			],
+			[
+				"clicks",
+				"clicks"
+			],
+			[
+				"INVITAT",
+				"INVITATION_ID"
+			],
+			[
+				"DI",
+				"DISTINCT "
+			],
+			[
+				"mobile",
+				"mobile_app"
+			],
+			[
+				"LOAD",
+				"LOAD"
+			],
+			[
+				"Sq",
+				"SQLContext"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"package control:install ",
+				"Package Control: Install Package"
+			],
+			[
+				"pacakg",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"package control",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"pacakge",
+				"Package Control: Advanced Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jolim/Desktop/nodejs/lynda.com-essential training/Exercise Files/chap04/04/flight/package.json",
+		"/Users/jolim/Desktop/nodejs/lynda.com-essential training/Exercise Files/chap04/04/flight/index.js",
+		"/Users/jolim/Desktop/nodejs/lynda.com-essential training/Exercise Files/chap04/04/app.js",
+		"/Users/jolim/Desktop/nodejs/lynda.com-essential training/Exercise Files/chap04/03/start/flight/index.js",
+		"/Users/jolim/Desktop/nodejs/lynda.com-essential training/Exercise Files/chap04/03/start/app.js",
+		"/Users/jolim/Desktop/nodejs/lynda.com-essential training/Exercise Files/chap04/02/final/flight/index.js",
+		"/Users/jolim/Desktop/nodejs/lynda.com-essential training/Exercise Files/chap04/03/start/flight/package.json",
+		"/Users/jolim/Desktop/nodejs/lynda.com-essential training/Exercise Files/chap04/02/final/app.js",
+		"/Users/jolim/Desktop/nodejs/lynda.com-essential training/Exercise Files/chap04/02/snippets/app.js",
+		"/Users/jolim/Desktop/nodejs/lynda.com-essential training/Exercise Files/chap04/02/snippets/index.js",
+		"/Users/jolim/Desktop/nodejs/lynda.com-essential training/Exercise Files/chap04/02/start/app.js",
+		"/Users/jolim/Desktop/nodejs/lynda.com-essential training/flight/package.json",
+		"/Users/jolim/Desktop/nodejs/lynda.com-essential training/flight/index.js",
+		"/Users/jolim/Desktop/nodejs/lynda.com-essential training/app.js",
+		"/Users/jolim/Desktop/nodejs/lynda.com-essential training/Exercise Files/chap02/02/start/example4.js",
+		"/Users/jolim/Desktop/nodejs/lynda.com-essential training/Exercise Files/chap02/02/start/example3.js",
+		"/Users/jolim/Desktop/nodejs/lynda.com-essential training/Exercise Files/chap02/02/start/proclaim.js",
+		"/Users/jolim/Desktop/nodejs/lynda.com-essential training/Exercise Files/chap02/02/start/example2.js",
+		"/Users/jolim/Desktop/nodejs/lynda.com-essential training/Exercise Files/chap02/02/start/relay/index.js",
+		"/Users/jolim/Desktop/nodejs/lynda.com-essential training/Exercise Files/chap02/02/start/example1.js",
+		"/Users/jolim/Desktop/nodejs/lynda.com-essential training/Exercise Files/chap02/02/start/announce.js",
+		"/Users/jolim/Desktop/nodejs/lynda.com-essential training/Exercise Files/chap02/03/server.js",
+		"/Users/jolim/Desktop/nodejs/lynda.com-essential training/airline/package.json",
+		"/Users/jolim/Desktop/nodejs/lynda.com-essential training/airline/index.js",
+		"/Users/jolim/Desktop/nodejs/lynda.com-essential training/airline2/package.json",
+		"/Users/jolim/Desktop/project/digits/pig_script/digits_metics.pig",
+		"/Users/jolim/Desktop/project/digits/pig_script/digits_metrics.pig",
+		"/Users/jolim/Desktop/project/digits/pig_script/digits_funnel_with_inviter_platform.pig",
+		"/Users/jolim/Desktop/project/plato-backend/src/growth/invite_accepts/jobs.py",
+		"/Users/jolim/Desktop/project/plato-backend/src/growth/invite_sends/jobs.py",
+		"/Users/jolim/Desktop/project/digits/pig_script/flock_landing_page.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/digits_dim/digits_dim_preprocessing.pig",
+		"/Users/jolim/Desktop/project/Learn/Pig/pig_config.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/digits_dim/digits_dim_metrics.pig",
+		"/Users/jolim/Desktop/project/plato-backend/src/digits/operational_metrics/jobs.py",
+		"/Users/jolim/Desktop/project/plato-backend/src/digits/operational_metrics_sends/jobs.py",
+		"/Users/jolim/Desktop/project/plato-backend/src/digits/funnel_metrics/jobs.py",
+		"/Users/jolim/Desktop/project/digits/pig_script/code_test/userAgent_deepdive.pig",
+		"/Users/jolim/Desktop/project/plato-backend/src/ump/growth_v2/jobs.py",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/digits_ops_dim/digits_ops_dim_clicks.pig",
+		"/Users/jolim/Desktop/project/ump_validates/digits/validate_aggregation.pig",
+		"/Users/jolim/Desktop/project/ump_validates/digits/validate_agg_country.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/digits_dim/jobs.param",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/digits_dim/digits_dim_clicks.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/digits_dim/digits_dim_regs.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/digits_dim/digits_dim_sends.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/digits_ops_dim/digits_ops_dim_signups.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/digits_ops_dim/digits_ops_dim_metrics.pig",
+		"/Users/jolim/Desktop/project/digits/Invitation_sends_country_code_comparison/Inv_country_locale_account.pig",
+		"/Users/jolim/Desktop/project/digits/pig_script/code_test/InvitationHandsOffEvent_Validation.pig",
+		"/Users/jolim/Desktop/project/digits/pig_script/code_test/handoff_dup_test.pig",
+		"/Users/jolim/Desktop/project/digits/pig_script/code_test/handoff_dup_inv2.pig",
+		"/Users/jolim/Desktop/project/digits/pig_script/code_test/inv_id_comp.R",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/invite_sends_dim/invite_sends_dim_with_dimensions.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/invite_accepts_dim/invite_accepts_dim_with_dimensions.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/invite_accepts_dim/invite_accepts_metrics.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/invite_accepts_dim/jobs.param",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/invite_sends_dim/invite_sends_dim_metrics.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/invite_accepts/invite_accepts_metrics.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/invite_accepts/invite_accepts_dim_with_dimensions.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/invite_accepts/invite_received.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/invite_accepts/invite_accepts_without_dimensions.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/invite_accepts/invite_accepts_mobile_dimensions.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/invite_accepts/jobs.param",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/invite_sends_dim/jobs.param",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/build.gradle",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/invite_sends_dim/invite_sends_metrics.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/invite_sends_dim/invite_sends_with_dimensions.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/invite_sends/invite_sends_with_dimensions.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/invite_sends/invite_sends_metrics.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/invite_sends/jobs.param",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/invite_sends/invite_sends_mobile_dimensions.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/digits_ops_dim/jobs.param",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/digits_dim/run.py",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/digits_dim/digits_sends.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/unified_metrics/metrics/src/pig/invite_sends/invite_sends_with_dimensions.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/digits/digits_clicks.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/digits/digits_regs.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/digits/digits_sends.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/digits/jobs.param",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/unified_metrics/metrics/src/pig/digits/digits_clicks.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/unified_metrics/metrics/src/pig/invite_sends/invite_sends_mobile_dimensions.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/unified_metrics/metrics/src/pig/invite_sends/invite_sends_without_dimensions.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/unified_metrics/metrics/src/pig/invite_sends/invite_sends_metrics.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/unified_metrics/metrics/src/pig/digits_ops/digits_ops_signups.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/unified_metrics/metrics/src/pig/digits_ops/digits_ops_clicks.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/unified_metrics/metrics/src/pig/digits_ops/digits_ops_metrics.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/unified_metrics/metrics/src/pig/digits/digits_sends.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/unified_metrics/metrics/src/pig/digits/digits_regs.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/unified_metrics/metrics/src/pig/digits_ops/jobs.param",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/unified_metrics/metrics/src/pig/digits/jobs.param",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/unified_metrics/metrics/src/pig/abook_dim/jobs.param",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/unified_metrics/metrics/src/pig/invite_sends/jobs.param",
+		"/Users/jolim/Desktop/project/digits/pig_script/code_test/inv_vs_inv.pig",
+		"/Users/jolim/Desktop/project/digits/pig_script/code_test/inv_vs_inv_followup.pig",
+		"/Users/jolim/Desktop/project/fun/profile_tracking.pig",
+		"/Users/jolim/Desktop/project/digits/pig_script/adam/digits_funnel_script.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/digits/digits_preprocessing.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/digits/digits_metrics.pig",
+		"/Users/jolim/Desktop/project/ump_validates/digits/validate_inv.pig",
+		"/Users/jolim/Desktop/project/digits/pig_script/code_test/phoneAccount_ID_duplicate_deepdive.pig",
+		"/Users/jolim/Desktop/project/digits/pig_script/code_test/phonenum_feature_test.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/digits_ops/digits_ops_clicks.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/digits_ops/digits_ops_signups.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/digits_ops/digits_ops_metrics.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/digits_ops/digits_ops_invt.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/digits_ops/run.py",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/digits_ops/jobs.param",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/GUEST.digits_ops/digits_ops_clicks.pig",
+		"/Users/jolim/Desktop/project/ump_validates/digits_ops/validate_aggregate.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/GUEST.digits_ops/digits_ops_signups.pig",
+		"/Users/jolim/Desktop/project/ump_validates/GUEST.digits_ops/validate_aggregation.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/digits_ops/digits_ops_sms.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/GUEST.digits_ops/jobs.param",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/GUEST.digits_ops/digits_ops_metrics.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/sms_funnel/sms_funnel_metrics.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/sms_funnel/validate_aggregation.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/sms_funnel/sms_funnel_regs.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/sms_funnel/sms_funnel_clicks.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/sms_funnel/sms_funnel_sends.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/sms_funnel/jobs.param",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/sms_funnel/sms_funnel_preprocessing.pig",
+		"/Users/jolim/Desktop/project/digits/pig_script/code_test/delivery_duplication_test.pig",
+		"/Users/jolim/Desktop/project/digits/pig_script/code_test/delivery_sender_recipient_duplication.pig",
+		"/Users/jolim/Desktop/project/digits/pig_script/additive_cube.pig",
+		"/Users/jolim/Desktop/project/digits/pig_script/precube.pig",
+		"/Users/jolim/Desktop/project/unified_metrics_trunk/metrics/src/pig/sms_funnel/validate.pig",
+		"/Users/jolim/Desktop/project/digits/pig_script/code_test/invt_invID_investigation.pig"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"%\n",
+			"ddate",
+			"cdate",
+			"start.date=$sdate;end.date=$edate",
+			"$min_id",
+			"min_id",
+			"invite_type",
+			"outdir",
+			"locale",
+			"dimension",
+			"==",
+			"reg_click",
+			"mem",
+			"country_code",
+			"nvl",
+			"(",
+			"country_code",
+			"INVITATION_ID",
+			"LiAvroStorage",
+			"_sk",
+			"startDate",
+			"int",
+			"MetricsAvroStorage",
+			"filter",
+			">",
+			"send_date",
+			">=",
+			"end.date",
+			"start.date",
+			"endDate",
+			"startDate",
+			"rcpt_handle_TRIMMED",
+			"rcpt_handle",
+			"enddate2",
+			"handles",
+			"group",
+			"distinct",
+			"left outer",
+			"store",
+			"into",
+			"load",
+			"filter",
+			"generate",
+			"using",
+			"not null",
+			"is null",
+			"is not",
+			"not",
+			"by",
+			"join",
+			"as",
+			"AND",
+			"FOREACH",
+			"data",
+			"receiver_platform",
+			"5986777991504494592",
+			"5986777991215087616",
+			"5986777991215087616L",
+			"country",
+			"phonenum",
+			"country_code",
+			"del_date_sk",
+			"sender_country",
+			"country_code",
+			"reg_web",
+			"Android",
+			"reg_web",
+			"by",
+			"group as",
+			"foreach",
+			"as",
+			"into",
+			"and",
+			"is not null",
+			"store",
+			"filter",
+			"order",
+			"parallel",
+			"using",
+			"load",
+			"default",
+			"int",
+			"outdir",
+			"reg",
+			"regis",
+			"edate",
+			"enddate",
+			"valid_begin_dt",
+			"inviter",
+			"adrsbook",
+			"\"",
+			"PHONEACCOUNT_ID",
+			"distinct",
+			"final_JOIN",
+			"super_join",
+			"endDate",
+			"enddate",
+			"enddate1",
+			"reg_date_",
+			"clk_date_",
+			"messagetype",
+			"messageType",
+			"as",
+			"generate",
+			"load",
+			"FILTER",
+			"JOIN",
+			"FOREACH",
+			"INTO",
+			"STORE",
+			"USING",
+			"by",
+			"is not null",
+			"trim",
+			"del_date",
+			"recipientPhoneAccount_ID"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'num.hours=$timerange;hours.ago=$timelag'",
+			"minimum.id",
+			"invite_channel",
+			"digit_dir",
+			"reg",
+			"locale_country_code",
+			"MetricAvroStorage",
+			"",
+			"long",
+			"LiAvroStorage",
+			"days.ago",
+			"num.days",
+			"days_ago",
+			"num_days",
+			"rcpt_handle_trimmed",
+			"rcpt_handle",
+			"endDate",
+			"HANDLES",
+			"group",
+			"distinct",
+			"left outer",
+			"store",
+			"into",
+			"load",
+			"filter",
+			"generate",
+			"using",
+			"not null",
+			"is null",
+			"is not",
+			"not",
+			"by",
+			"join",
+			"as",
+			"and",
+			"foreach",
+			"click_platform",
+			"country_code",
+			"sender_country",
+			"reg",
+			"BY",
+			"GROUP AS",
+			"FOREACH",
+			"AS",
+			"INTO",
+			"AND",
+			"IS NOT NULL",
+			"STORE",
+			"FILTER",
+			"ORDER",
+			"PARALLEL",
+			"USING",
+			"LOAD",
+			"LONG",
+			"DEFAULT",
+			"digit_adhoc_dir",
+			"first_launched_date_sk",
+			"abkTasks",
+			"del_clk_reg",
+			"del_inv",
+			"endDate",
+			"enddate",
+			"AS",
+			"GENERATE",
+			"LOAD",
+			"FILTER",
+			"JOIN",
+			"FOREACH",
+			"INTO",
+			"STORE",
+			"USING",
+			"BY",
+			"IS NOT NULL"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 192.0,
+	"status_bar_visible": true
+}
