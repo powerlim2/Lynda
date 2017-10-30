@@ -383,6 +383,14 @@ section#riderReviews aside, #reviews article {
 }
 
 /*aside header goes here*/
+section#riderReviews aside h3 {
+	front-size: 1.6em;
+	font-weight: normal;
+	color: #000;
+	background: #c3cebc;
+	padding: .5em;
+	margin: 0 -20px .5em;
+}
 
 section#reviews article h3 {
 	font-size: 1em;

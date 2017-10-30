@@ -216,6 +216,11 @@ main img{
 }
 
 /*figcaption styles go here*/
+main figcaption {
+	text-transform: uppercase;
+	color: #4d4d4d;
+	font-size: 1.2em;
+}
 
 main blockquote {
 	background: #ddd;
