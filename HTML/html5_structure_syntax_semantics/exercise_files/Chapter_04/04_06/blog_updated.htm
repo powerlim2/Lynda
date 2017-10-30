@@ -10,7 +10,7 @@
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 </head>
-<body itemscope itemtype="http://schema.org/Recipe">
+<body>
 <header id="mainHeader" role="banner">
     <h1>Cycle Tracks</h1>
     <p>your complete biking trail source</p>
@@ -24,26 +24,26 @@
     </ul>
   </nav>
 </header>
-<main id="trailReviews" role="main" class="recipe">
+<main id="trailReviews" role="main" class="recipe" itemscope itemtype="http://schema.org/Recipe">
   <header>
       <h2>Trail Blog</h2>
   </header>
   <article role="article">
     <h3 itemprop="name">Holly&rsquo;s Trail Mix</h3>
-    <time itemprop="dateCreated" datetime="2014-11-30" class="pubdate">
+    <time datetime="2014-11-30" class="pubdate" itemprop="dateCreated">
                posted on November 30<sup>th</sup>, 2014</time>
-  <img itemprop="image" src="_images/mix.png" class="imgRight" /> 
-<p itemprop="author">Holly Williamson</p>
-  <p itemprop="description" class="summary">This is my favorite trail mix for a long day of biking. It stores well, is lightweight and can give you a great energy boost!</p>
+  <img src="_images/mix.png" class="imgRight" itemprop="image"> 
+<p>Holly Williamson</p>
+  <p class="summary" itemprop="description">This is my favorite trail mix for a long day of biking. It stores well, is lightweight and can give you a great energy boost!</p>
   <p>If I know I'm going to be going our for a full day on the trail, I want to make sure that I've got a good source of energy to help me make it through those really tough climbs. Many of my friends love the pre-packaged energy bars, but in my opinion nothing beats a well thought-out trail mix! The great thing about trail mix is that you can modify it to your specific tastes, so if you don't like some of the ingredients listed here, play around and find your perfect mix! There are days where I find the wasabi peas to be too much, so I usually make one batch with them, and one batch without them so I can pack for whatever mood I'm in. Good trail mix is about exploring, don't be afraid to substitute your own ingredients!</p>
  <h4>Prep time: <time datetime="PT5M" itemprop="prepTime">5 min</time></h4>
   <h4>Cook time: <time datetime="PT5M" itemprop="cookTime">5 min</time></h4>
   <h4>Total time: <time datetime="PT10M" itemprop="totalTime">10 min</time></h4>
   <h4>Yield: <span itemprop="recipeYield">3 cups</span></h4>
-  <section itemprop="nutrition" itemscope itemtype="http://schema.org/NutritionInformation">
-    <h4>Serving size: <span itemprop="servingSize">Around 8oz</span></h4>
-    <h4>Calories per serving: <span itemprop="calories">350</span></h4>
-  </section>
+    <section itemscpe itemtype="http://schema.org/NutritionInformation">
+      <h4 itemprop="servingSize">Serving size: Around 8oz</h4>
+      <h4 itemprop="calrories">Calories per serving: 350</h4>
+    </section>
   <section>
   <h4 class="ingredients">Ingredients:</h4>
   <ul>
@@ -71,58 +71,57 @@
 </main>
 <section id="reviews">
 <h2>Featured Reviews</h2>
-<section itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+<section>
 <h3>Recipe rating</h3>
-   <p class="review-summary"><span itemprop="ratingValue">4.0</span> stars based on
-    <span itemprop="reviewCount">20</span> reviews</p>
-</section>
-     <article itemprop="review" itemscope itemtype="https://schema.org/Review">
-         <h3><span itemprop="author">Vicki Gibbons</span>
+   <p class="review-summary">4.0 stars based on 20 reviews</p>
+   </section>
+     <article>
+         <h3><span>Vicki Gibbons</span>
           <time datetime="2014-12-03T14:41:04-08:00">December 3<sup>rd</sup>, 2014 at 2:41</time>
         </h3>
-        <p class="item-reviewed">Review for: <span itemprop="itemReviewed">Holly's Trail Mix</span></p>
-        <p class="rating">Rating: <span itemprop="reviewRating">3</span></p>
-        <p itemprop="reviewBody">Not my favorite mix, I love walnuts and cashews, and this just has peanuts. Good start though!</p>
+        <p class="item-reviewed">Review for: Holly's Trail Mix</p>
+        <p class="rating">Rating: 3</p>
+        <p>Not my favorite mix, I love walnuts and cashews, and this just has peanuts. Good start though!</p>
       </article>
-      <article itemprop="review" itemscope itemtype="https://schema.org/Review">
-              <h3><span itemprop="author">Tanya Staples</span> 
+      <article>
+              <h3><span>Tanya Staples</span> 
           <time datetime="2014-12-11T12:52:04-08:00">December 11<sup>th</sup>, 2014 at 12:52</time>
         </h3>
-        <p class="item-reviewed">Review for: <span itemprop="itemReviewed">Holly's Trail Mix</span></p>
-        <p class="rating">Rating: <span itemprop="reviewRating">4.5</span></p>
-        <p itemprop="reviewBody">Love this mix! I usually skip the wasabi peas, but other than that this is a perfect blend of salty and sweet!</p>
+        <p class="item-reviewed">Review for: Holly's Trail Mix</p>
+        <p class="rating">Rating: 4.5</p>
+        <p>Love this mix! I usually skip the wasabi peas, but other than that this is a perfect blend of salty and sweet!</p>
       </article>
-      <article itemprop="review" itemscope itemtype="https://schema.org/Review">
-              <h3><span itemprop="author">Scott Erickson</span> 
+      <article>
+              <h3><span>Scott Erickson</span> 
           <time datetime="2015-01-02T17:52:04-08:00">January 2<sup>nd</sup>, 2015 at 5:52</time>
         </h3>
-        <p class="item-reviewed">Review for: <span itemprop="itemReviewed">Holly's Trail Mix</span></p>
-        <p class="rating">Rating: <span itemprop="reviewRating">4</span></p>
-        <p itemprop="reviewBody">Nice! I love a good bag of trail mix when out riding! Never would have thought of the pumpkin seeds!</p>
+        <p class="item-reviewed">Review for: Holly's Trail Mix</p>
+        <p class="rating">Rating: 4</p>
+        <p>Nice! I love a good bag of trail mix when out riding! Never would have thought of the pumpkin seeds!</p>
       </article>
-      <article itemprop="review" itemscope itemtype="https://schema.org/Review">
-              <h3><span itemprop="author">Heather Schuler</span> 
+      <article>
+              <h3><span>Heather Schuler</span> 
           <time datetime="2015-01-10T10:12:04-08:00">January 10<sup>th</sup>, 2015 at 10:12</time>
         </h3>
-        <p class="item-reviewed">Review for: <span itemprop="itemReviewed">Holly's Trail Mix</span></p>
-        <p class="rating">Rating: <span itemprop="reviewRating">5</span></p>
-        <p itemprop="reviewBody">This has got a little bit of everything! Five stars from me!</p>
+        <p class="item-reviewed">Review for: Holly's Trail Mix</p>
+        <p class="rating">Rating: 5</p>
+        <p>This has got a little bit of everything! Five stars from me!</p>
       </article>
-      <article itemprop="review" itemscope itemtype="https://schema.org/Review">
-              <h3><span itemprop="author">Shira Gotshalk</span> 
+      <article>
+              <h3><span>Shira Gotshalk</span> 
           <time datetime="2015-01-15T15:30:04-08:00">January 15<sup>th</sup>, 2014 at 3:30</time>
         </h3>
-        <p class="item-reviewed">Review for: <span itemprop="itemReviewed">Holly's Trail Mix</span></p>
-        <p class="rating">Rating: <span itemprop="reviewRating">5</span></p>
-        <p itemprop="reviewBody">Made this the other day right before a ride up Los Robles. Awesome treat to enjoy at the top!</p>
+        <p class="item-reviewed">Review for: Holly's Trail Mix</p>
+        <p class="rating">Rating: 5</p>
+        <p>Made this the other day right before a ride up Los Robles. Awesome treat to enjoy at the top!</p>
       </article>
-      <article itemprop="review" itemscope itemtype="https://schema.org/Review">
-              <h3><span itemprop="author">Regan Williamson</span> 
+      <article>
+              <h3><span>Regan Williamson</span> 
           <time datetime="2015-01-27T17:12:04-08:00">January 27<sup>th</sup>, 2014 at 5:12</time>
         </h3>
-        <p class="item-reviewed">Review for: <span itemprop="itemReviewed">Holly's Trail Mix</span></p>
-        <p class="rating">Rating: <span itemprop="reviewRating">5</span></p>
-        <p itemprop="reviewBody">This is my Mom's recipe! My favorite snack ever, try it you'll love it!</p>
+        <p class="item-reviewed">Review for: Holly's Trail Mix</p>
+        <p class="rating">Rating: 5</p>
+        <p>This is my Mom's recipe! My favorite snack ever, try it you'll love it!</p>
       </article>
 </section>
 <aside id="adCopy" role="complementary">
