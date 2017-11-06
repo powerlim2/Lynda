@@ -53,7 +53,7 @@ Selector & Decoration
 	- You should plan an overall site strategy for style placement
 
 
-# How brwosers apply styles
+# How browsers apply styles
 
 - Search Order: browsers are reading selectors from right to left.
 - Cascade: external styles are applied first, then embedded, then inline. And the last rule applied wins.
@@ -245,7 +245,7 @@ div {
 
 - normal document flow
 - position: static|relative|absolute|fixed|inherit
--Element Stacking: z-index
+- Element Stacking: z-index
 
 ### Floating
 
