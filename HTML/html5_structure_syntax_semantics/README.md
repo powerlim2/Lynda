@@ -1,7 +1,7 @@
-Course Note
-===========
+Course Note: HTML Structure, Syntax, Semantics
+==============================================
 
-## HTML5 Layout
+## 1 HTML5 Layout
 
 
 ![hymlLayout](img/htmlLayout.png)
@@ -10,7 +10,7 @@ Course Note
 Link: [https://www.w3schools.com/html/html_layout.asp](https://www.w3schools.com/html/html_layout.asp)
 
 
-## HTML5 Template
+## 2 HTML5 Template
 
 ```html
 <!doctype html>

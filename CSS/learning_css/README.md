@@ -1,5 +1,7 @@
-Course Note
-===========
+Course Note: Learning CSS
+=========================
+
+Author: Joon Lim
 
 The course focuses on the big picture of Cascading Style Sheets.
 
@@ -10,7 +12,7 @@ The course focuses on the big picture of Cascading Style Sheets.
 ![css](img/css.png)
 
 
-# Benefit of User Control
+## 1 Benefit of User Control
 
 - Giving the user control enhances accessibility.
 - It prvents rendering issues from restricting access to content.
@@ -18,7 +20,7 @@ The course focuses on the big picture of Cascading Style Sheets.
 - On the web, being able to access content matters.
 
 
-# CSS Syntax
+## 2 CSS Syntax
 
 Selector & Decoration
 
@@ -31,7 +33,7 @@ Selector & Decoration
 	- Grouping Selectors
 
 
-# Guidelines for Writing HTML
+## 3 Guidelines for Writing HTML
 
 - Focus on writing clean, efficient code
 - Structure the HYMK  so it addes meaning to the content
@@ -39,7 +41,7 @@ Selector & Decoration
 - Much easier to style well-structure code
 
 
-# CSS Authoring Options
+## 4 CSS Authoring Options
 
 - Style Location
 	- External Style
@@ -53,7 +55,7 @@ Selector & Decoration
 	- You should plan an overall site strategy for style placement
 
 
-# How browsers apply styles
+## 5 How browsers apply styles
 
 - Search Order: browsers are reading selectors from right to left.
 - Cascade: external styles are applied first, then embedded, then inline. And the last rule applied wins.
@@ -62,26 +64,26 @@ Selector & Decoration
 - Styles are cumulative.
 
 
-# Common Rendering Engines
+## 6 Common Rendering Engines
 
 ![render](img/render.png)
 
 
-# CSS Specifications
+## 7 CSS Specifications
 
 - [https://www.w3.org/Style/CSS/](https://www.w3.org/Style/CSS/)
 - [http://caniuse.com](http://caniuse.com) - check the browser support for different browsers.
 - [http://www.quirksmode.org](http://www.quirksmode.org) - check the compatibility
 
 
-# Common CSS Concetps
+## 8 Common CSS Concetps
 
-## Work with Fonts
+### 8.1 Work with Fonts
 
 - System Fonts
 - Web Fonts
 
-### Requesting Fonts
+#### Requesting Fonts
 
 ```css
 
@@ -93,15 +95,15 @@ h1 {
 
 - evaluates from left and move onto right if unavailable. 
 
-### CSS Font Options
+#### CSS Font Options
 
 - Allow the browser to display its default font
 - Specify a system font and provide fallback options
 - Use @font-face to point to a hosted font resource
 
-## Formatting Text
+### 8.2 Formatting Text
 
-### Defining Font Families
+#### Defining Font Families
 
 ```css
 body {
@@ -110,7 +112,7 @@ body {
 }
 ```
 
-### Defining Font Size
+#### Defining Font Size
 
 ```css
 h1 {
@@ -124,7 +126,7 @@ Fixed Units vs. Relative Units
 - Fixed units are displayed at the requested size, regardless of device or context.
 - Relative units are displayed relative to the environment in which tey are found.
 
-### Font-Weight and Font-Style
+#### Font-Weight and Font-Style
 
 ```css
 h1 {
@@ -134,7 +136,7 @@ h1 {
 
 ```
 
-### Font-Variant & Text-transform
+#### Font-Variant & Text-transform
 
 ```css
 
@@ -144,7 +146,7 @@ h3 {font-variant: small-caps;}
 
 ```
 
-### Text-align & Text-indent
+#### Text-align & Text-indent
 
 ```css
 p {text-align: justify;}
@@ -155,7 +157,7 @@ p {text-indent: 1em;}
 
 ```
 
-### Letter-spacing & Letter-height
+#### Letter-spacing & Letter-height
 
 ```css
 h2 {letter-spacing: .1em;}
@@ -163,7 +165,7 @@ h2 {letter-spacing: .1em;}
 p {line-height: 1.6;}
 ```
 
-### The Box Model
+#### The Box Model
 
 The box model refers to the physical properties of an element's rectangular box. Tehse are margins, boarders, paddings, and tent width and height.
 
@@ -179,7 +181,7 @@ Box Model Considerations
 - Elements aoften have default margins that you need to account for.
 - A 100% width property when combined with padding and borders can create elements that are larger than their parents.
 
-### Margins and Paddings
+#### Margins and Paddings
 
 Padding Syntax
 
@@ -204,7 +206,7 @@ p {
 }
 ```
 
-### Borders
+#### Borders
 
 Border Syntax
 
@@ -222,7 +224,7 @@ div {
 - Border Styles: solid, dotted, dashed, double, groove, ridge, inset, outset
 - Border color: border-color
 
-### Background
+#### Background
 
 ```css
 div {
@@ -234,26 +236,26 @@ div {
 }
 ```
 
-### Working with color
+#### Working with color
 
 - border-color: red;
 - background-color: #fff;
 - color: rgb(255, 128, 0);
 - opacity: rgba(247, 235, 185, .5);
 
-### Element Positioning
+#### Element Positioning
 
 - normal document flow
 - position: static|relative|absolute|fixed|inherit
 - Element Stacking: z-index
 
-### Floating
+#### Floating
 
 ```css
 .box 1 {float: left;}
 ```
 
-### Media Query Syntax
+#### Media Query Syntax
 
 link element syntax
 
@@ -262,9 +264,9 @@ link element syntax
 ```
 
 
-## CSS Resources
+### 8.3 CSS Resources
 
-### Popular CSS Frameworks
+#### Popular CSS Frameworks
 
 Pre-prepared CSS files that provide a templating system for site slayout and design.
 
@@ -275,12 +277,10 @@ Pre-prepared CSS files that provide a templating system for site slayout and des
 - normalize.css
 
 
-### CSS Preprocessor
+#### CSS Preprocessor
 
 to define variables, nested rules, mixins and operators.
 
 - LESS
 - SASS
 - STYLUS
-
-

@@ -1,7 +1,10 @@
 Course Note: CSS Essential 1
 ============================
 
-## INTRO
+Author: Joon Lim
+
+
+## 1 INTRO
 
 Box Model Properties (content-padding-margin)
 - width & height: sets speicific size for the content box
@@ -11,7 +14,7 @@ Box Model Properties (content-padding-margin)
 HTML + CSS + JS = FRONT END
 
 
-### Review of HTML Terminology and Syntax
+### 1.1 Review of HTML Terminology and Syntax
 
 - Elements - components that define page objects (paragraphs, links, etc)
 - Tags - define the elements with angled brackets wrapped around the tag name and usually come in pairs
@@ -29,14 +32,14 @@ HTML + CSS + JS = FRONT END
 <link>, <menuitem>, <meta>, <param>, <source>, <track>, <wbr>
 ```
 
-### Document Object Model
+### 1.2 Document Object Model
 
 The document object model (DOM) represents the tree-like structure, created when writing HTML. Each element is an object, which makes up the document. 
 
 
-## Referencing CSS
+## 2 Referencing CSS
 
-### External CSS
+### 2.1 External CSS
 
 - a separate CSS file with a .css file extension
 - always referenced within the `<head>`
@@ -46,7 +49,7 @@ The document object model (DOM) represents the tree-like structure, created when
 <link rel="stylesheet" href="style.css>"
 ```
 
-### Inline CSS
+### 2.2 Inline CSS
 
 - a technique that should be avoided because it's inefficient.
 - Inline CSS is added using the *style* attribute.
@@ -55,7 +58,7 @@ The document object model (DOM) represents the tree-like structure, created when
 <p style="color: blue;"> this text is blue. </p>
 ```
 
-### Internal CSS
+### 2.3 Internal CSS
 
 - Internal CSS uses the `<style>` tag, included in the `<head>` element.
 - Internal CSS will take precedence, only if it's added after the external stylesheet.
@@ -74,7 +77,7 @@ The document object model (DOM) represents the tree-like structure, created when
 
 
 
-### File Naming Tips
+### 2.4 File Naming Tips
 
 - Don't use spaces or symbols and separate words with dash or underscore.
 - Use concise and descriptive names
@@ -85,7 +88,7 @@ product-services.html (best for SEO)
 product_services.html
 ```
 
-### Folder Directory Example
+### 2.5 Folder Directory Example
 
 ```
 project-name
@@ -98,11 +101,11 @@ project-name
 	|-- index.html
 ```
 
-### Relative Paths
+### 2.6 Relative Paths
 
 Relative paths point to files located within the project folder, including subfolders if applicable.
 
-### Absolute Paths
+### 2.7 Absolute Paths
 
 - Absolute paths refers to a resource located on a server including the domain name.
 - They are often used when linking to pages outside of your website.
@@ -111,12 +114,12 @@ Relative paths point to files located within the project folder, including subfo
 <a href="http://linkedin.com">LinkedIn</a>
 ````
 
-## CSS: Cascading Style Sheets
+## 3 CSS: Cascading Style Sheets
 
 - Used to separate presentation (CSS) from content (HTML)
 - Replaces old, deprecated HTML presentational tags (i.e., `<blink>` and `<center>`)
 
-### CSS Terminology and Syntax
+### 3.1 CSS Terminology and Syntax
 
 - **Selectors** determine which HTML element to apply styles to. 
 - **Declaration blocks** consists of one or more styles rules, enclosed in curly braces {}.
@@ -130,11 +133,11 @@ selector {
 }
 ```
 
-### Formatting CSS
+### 3.2 Formatting CSS
 
 - Use whitespaces to make the CSS easier to read
 
-### CSS Selectors
+### 3.3 CSS Selectors
 
 #### Type Selectors
 
@@ -158,7 +161,7 @@ Class and ID attributes are used to attach extra information to HYML elements.
 <div id="example"></div>
 ```
 
-### Pseudo-class Selectors
+### 3.4 Pseudo-class Selectors
 
 #### Descendent Selectors
 
@@ -195,7 +198,7 @@ a:hover {
 ```
 
 
-### CSS Comments Syntax
+### 3.5 CSS Comments Syntax
 
 ```css
 /* comment here 
@@ -203,7 +206,7 @@ a:hover {
 ```
 
 
-### CSS Color Values
+### 3.6 CSS Color Values
 
 Referece: 
 1. [coolers.co](http://coolers.co): color pallete lookup
@@ -212,13 +215,13 @@ Referece:
 - RGB: rgb(245, 245, 245)
 - hex: #FFFFFF
 
-### Cascading Style Sheets
+### 3.7 Cascading Style Sheets
 
 - CSS rules cascade and are executed from top to bottom.
 - Styles **can** be inherited from ancestor to descendant elements. 
 
 
-### CSS Specificity
+### 3.8 CSS Specificity
 
 Specificity determines which CSS rule will take precedence. The selector with the higher specificity will be applied.
 
@@ -240,13 +243,13 @@ Reference:
 2. [specificity.keegan.st](http://specificity.keegan.st)
 
 
-## Typography
+## 4 Typography
 
 - **Typography**: the study of the design and use of the type for communication
 - **Typeface**: a set of fonts, designed with common characteristics and composed of glyphs
 - **Font**: inidividual files that are part of a typeface
 
-### Typefaces and CSS
+### 4.1 Typefaces and CSS
 
 Use **font-family** to set the typeface
 
@@ -263,7 +266,7 @@ body {
 
 Web-safe Fonts - preinstalled fonts.
 
-### Using a Font Stack
+### 4.2 Using a Font Stack
 
 ```css
 h2 {
@@ -276,7 +279,7 @@ h2 {
 - Use a generic font family as the last option
 - Always declare generic fonts without quotes
 
-### Generic Font Options
+### 4.3 Generic Font Options
 
 1. Serif (serif fonts)
 2. Sans serif (san serif fonts)
@@ -284,7 +287,7 @@ h2 {
 4. Fantasy (decorative fonts)
 5. Monospace (monospace fonts)
 
-### @font-face
+### 4.4 @font-face
 
 Used to set the font name and link to the font files
 
@@ -309,7 +312,7 @@ Different browsers support different file formats. The WOFF & WOFF2 formats are 
 }
 ```
 
-### External Fonts (Web Fonts)
+### 4.5 External Fonts (Web Fonts)
 
 - adobe typekit (paid service)
 - google fonts (free)
@@ -327,7 +330,7 @@ body {
 
 2-3 fonts are generally used.
 
-### Font Size
+### 4.6 Font Size
 
 #### px
 
@@ -354,7 +357,7 @@ body {
 
 One centimeter. 1cm = 10mm = 37.8px
 
-### CSS Font Properties
+### 4.7 CSS Font Properties
 
 #### font-weight
 
@@ -369,7 +372,7 @@ h1 {
 }
 ```
 
-![img]
+![font](img/img2.png)
 
 #### font-style
 
@@ -384,7 +387,7 @@ em {
 }
 ```
 
-### color
+### 4.8 color
 
 ```css
 h1 {
@@ -394,7 +397,7 @@ h1 {
 }
 ```
 
-### line-height
+### 4.9 line-height
 
 - the **line-height** property sets the height of the space between two lines of text.
 - it is closely related to font-size.
@@ -403,7 +406,7 @@ h1 {
 
 IMPORTANT: line-height should be larger than the font-size.
 
-### text-transform
+### 4.10 text-transform
 
 the **text-transform** property specifies the latter casing.
 
@@ -412,16 +415,16 @@ the **text-transform** property specifies the latter casing.
 - text-transform: lowercase;
 - text-transform: none;
 
-### text-align
+### 4.11 text-align
 
 - The **text-align** property can be used to center align text. 
 - You can add it to the HTML element itself or the parent element. 
 - This style is inherited by descendant elements.
 
 
-## Layout
+## 5 Layout
 
-### HTML Elements
+### 5.1 HTML Elements
 
 #### Block Elements
 
@@ -446,9 +449,9 @@ span, a {
 
 **display option: inline, block, inline-block, none**
 
-### Box Model
+### 5.2 Box Model
 
-![img-box](..)
+![img-box](img/img1.png)
 
 - width, height, padding, margin, boarder
 
@@ -492,14 +495,113 @@ span {
 
 /* shorthand */
 span {
+	padding: 2px /* same for all sides*/
+	padding: 2px 10px /* 2px for top & bottom, 10px for left & right */
+	padding: 1px 10px 5px /* 1px for top, 10px for right & left, 5px for bottom */
 	padding: 2px 2px 2px 2px; /* top right bottom left - clockwise */
 }
 ```
 
-#### 
+#### Margin
+
+Margin adjusts the space around/outside of an element.
+
+```css
+/* longhand */
+margin-top: 2px;
+margin-right: 2px;
+margin-bottom: 2px;
+margin-left: 2px;
+
+/* shorthand */
+margin: 2px
+margin: 2px 10px
+margin: 2px 10px 5px
+margin: 2px 10px 5px 2px
+```
+
+* by default, block elements stack on top of each other.
+* Negative margin values are used to move elements outside of the stacking position.
+
+```css
+margin: -20px 0 0 -20px;
+```
+
+* Margin and auto-align
+
+```css
+div {
+	width: 950px;
+	margin: 0 auto;
+}
+```
+
+#### Border
+
+the border property displays between the margin and padding.
+
+```css
+/* lognhand */
+border-width: 2px;
+border-style: solid; /* dashed, solid, dotted, double, none */
+border-color: red;
+
+/* shorthand */
+border: 2px solid red; /* width, style, color */
+```
+
+#### creating a content wrapper
+
+```css
+.content-wrap {
+	max-width: 950px;
+	margin: 0 auto;
+}
+```
+
+#### Float
+
+```css
+.floated {
+	float: left;
+	margin-right: 15px;
+}
+.next {
+	clear: both; /* left and right */
+}
+.parent {
+	overflow: hidden;
+	/* OR */
+	overflow: auto;
+}
+```
+
+### 5.3 Paul Irish's Box Model Fix
+
+- put it on the very top of the script
+- we can modify the box without worrying about the wrapper size
+
+```css
+html {
+	box-sizing: boarder-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+```
+
+### 5.4 min-height property trick
+
+Use avoid the following situation:
+
+![float-margin-issue](img/img3.png)
+
+```css
+min-height: 175px; /* adjust based on your content */
+```
 
 
-# Note
+## 6 Note
 
 "background" is a shortcut for 
 ```
@@ -512,6 +614,3 @@ background-clip
 background-origin
 background-size
 ```
-
-
-
