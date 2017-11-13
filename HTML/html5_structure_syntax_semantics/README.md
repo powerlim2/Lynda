@@ -1,14 +1,13 @@
 Course Note: HTML Structure, Syntax, Semantics
 ==============================================
 
-## 1 HTML5 Layout
+Author: Joon Lim
 
+## 1 HTML5 Layout
 
 ![hymlLayout](img/htmlLayout.png)
 
-
 Link: [https://www.w3schools.com/html/html_layout.asp](https://www.w3schools.com/html/html_layout.asp)
-
 
 ## 2 HTML5 Template
 

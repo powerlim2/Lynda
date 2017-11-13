@@ -9,8 +9,11 @@ This is a repo for my Lynda.com courseworks. Lynda courses are light-weight and 
 - **HTML5**: 
 	- HTML5: Structure, Syntax, and Semantics by James Williamson
 - **CSS**:
-	- Learning CSS
-	- CSS Essential Training 1
-- **Node.js**: Node.js Essential Training with Joseph LeBlanc
-- **jQuery**: jQuery Essential Training with Joe Marini
-- **D3.js**: Data Visualization with D3.js with Ray Villalobos
+	- Learning CSS by James Williamson
+	- CSS Essential Training 1 by Christina Truong
+- **Node.js**: 
+	- Node.js Essential Training with Joseph LeBlanc
+- **jQuery**: 
+	- jQuery Essential Training with Joe Marini
+- **D3.js**: 
+	- Data Visualization with D3.js with Ray Villalobos
