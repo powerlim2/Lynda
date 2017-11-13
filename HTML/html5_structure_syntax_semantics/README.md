@@ -3,13 +3,126 @@ Course Note: HTML Structure, Syntax, Semantics
 
 Author: Joon Lim
 
-## 1 HTML5 Layout
+## 1 Intro
+
+### 1.1 Semantics
+
+The process of adding meaning through language. Web Semantics is the process of using web languages and syntaxes to add meaning to content.
+
+- Improving semantics was as speicific focus of HTML5
+- New semantic elements expand markup capabilities
+- New document outline rules enhance document structure
+- New content models give context for when certain
+
+**Bookmark and lookup for W3's HTML elements.**
+
+### 1.2 HTML Content Models
+
+Block level vs. inline level
+
+## 2 HTML5 Document Structure
+
+A series of sections and subsections that can be visualized as a document outline.
+
+- Sectioning Elements: article, aside, nav, section
+- Semantic Grouping Elements: footer, header, main
+
+### 2.1 Organizing Content
+
+Outline based on Primary Content vs. Secondary Content
+
+### 2.2 Creating Document Section
+
+1. create document section
+2. identify main content
+3. add headings properly
+4. build navigation
+5. properly nesting structure
+6. structure headers and footers
+7. check document structure
+
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+    <header>
+        <h1></h1>  <!-- #3 -->
+        <nav></nav>  <!-- #4 -->
+    </header>
+    <main>  <!-- #2 -->
+        <h2></h2>
+        <article>
+            <header>  <!-- #6 -->
+                <h3></h3>  <!-- #5 -->
+                <p></p>
+            </header>
+                <h4></h4>
+            <section>
+                <h3></h3>
+            </section>
+        </article>
+    </main>
+    <section></section>
+    <aside></aside>
+    <footer></footer>  <!-- #6 -->
+</body>
+</html>
+```
+
+#### 8. Sectioning Roots
+
+use `blockquote` to make the internal structure without making the change on the document outline.
+
+## 3 Grouping Content with HTML 5
+
+### 3.1 Figure and Figcaption
+
+use to wrap an image content.
+
+```html
+<figure>
+    <figcapture>image title</figcapture>
+    <img src="x" alt="y">
+</figure>
+```
+
+### 3.2 Using divs
+
+Are you grouping content together that there is no suitable element for? If yes, then **div** might be a good candidate.
+
+### 3.3 working with lists
+
+- ordered list, `<ol>`
+- unordered list, `<ul>`
+    - list item, `<li>`
+- definition list, `<dl>`
+    - definition term, `<dt>`
+        - definitions, `<dd>`
+
+### 3.4 Emphasizing text
+
+```html
+<b></b>
+<i></i>
+<strong></strong>
+<em></em>
+```
+
+## 4 Extending Meaning
+
+
+## 5 HTML5 Layout
 
 ![hymlLayout](img/htmlLayout.png)
 
 Link: [https://www.w3schools.com/html/html_layout.asp](https://www.w3schools.com/html/html_layout.asp)
 
-## 2 HTML5 Template
+## 6 HTML5 Template
 
 ```html
 <!doctype html>
