@@ -11,6 +11,7 @@ This is a repo for my Lynda.com courseworks. Lynda courses are light-weight and 
 - **CSS**:
 	- Learning CSS by James Williamson
 	- CSS Essential Training 1 by Christina Truong
+	- CSS Essential Training 2 by Christina Truong
 - **Node.js**: 
 	- Node.js Essential Training with Joseph LeBlanc
 - **jQuery**: 
