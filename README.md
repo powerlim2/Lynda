@@ -13,8 +13,10 @@ This is a repo for my Lynda.com courseworks. Lynda courses are light-weight and 
 	- CSS Essential Training 1 by Christina Truong
 	- CSS Essential Training 2 by Christina Truong
 - **Node.js**: 
-	- Node.js Essential Training with Joseph LeBlanc
+	- Node.js Essential Training by Joseph LeBlanc
 - **jQuery**: 
-	- jQuery Essential Training with Joe Marini
+	- jQuery Essential Training by Joe Marini
 - **D3.js**: 
-	- Data Visualization with D3.js with Ray Villalobos
+	- Data Visualization with D3.js by Ray Villalobos
+- **Version Control**: 
+	- Learning Git and Github by Ray Villalobos
