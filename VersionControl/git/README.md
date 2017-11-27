@@ -13,6 +13,7 @@ git add .
 git add --all
 
 git commit -m "<commit_message>"
+git commit --amend
 
 git status
 
@@ -46,7 +47,7 @@ get rid of a file
 
 ```git
 git log
-git check <commitId>
+git checkout <commitId>
 ```
 get to the detached HEAD state.
 
