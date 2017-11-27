@@ -21,6 +21,8 @@ git log
 
 git branch
 
+git diff
+
 git push
 ```
 
